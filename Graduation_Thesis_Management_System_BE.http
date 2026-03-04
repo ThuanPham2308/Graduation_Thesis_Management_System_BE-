@@ -1,0 +1,6 @@
+@Graduation_Thesis_Management_System_BE_HostAddress = http://localhost:5270
+
+GET {{Graduation_Thesis_Management_System_BE_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

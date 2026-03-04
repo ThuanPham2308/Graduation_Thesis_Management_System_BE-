@@ -1,0 +1,819 @@
+[
+  {
+    "ContainingType": "Graduation_Thesis_Management_System_BE.Controllers.AdminController",
+    "Method": "GetAll",
+    "RelativePath": "api/admins",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Graduation_Thesis_Management_System_BE.Controllers.AdminController",
+    "Method": "Create",
+    "RelativePath": "api/admins",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Graduation_Thesis_Management_System_BE.Models.Dtos.AdminDtos.AdminCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Graduation_Thesis_Management_System_BE.Controllers.AdminController",
+    "Method": "Delete",
+    "RelativePath": "api/admins/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Graduation_Thesis_Management_System_BE.Controllers.ClassController",
+    "Method": "GetAll",
+    "RelativePath": "api/classes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Graduation_Thesis_Management_System_BE.Controllers.ClassController",
+    "Method": "Create",
+    "RelativePath": "api/classes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Graduation_Thesis_Management_System_BE.Models.Dtos.ClassDtos.CreateClassDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Graduation_Thesis_Management_System_BE.Controllers.ClassController",
+    "Method": "GetById",
+    "RelativePath": "api/classes/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Graduation_Thesis_Management_System_BE.Controllers.ClassController",
+    "Method": "Update",
+    "RelativePath": "api/classes/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "Graduation_Thesis_Management_System_BE.Models.Dtos.ClassDtos.CreateClassDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Graduation_Thesis_Management_System_BE.Controllers.ClassController",
+    "Method": "Delete",
+    "RelativePath": "api/classes/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Graduation_Thesis_Management_System_BE.Controllers.DefenseSessionController",
+    "Method": "GetAll",
+    "RelativePath": "api/defense-sessions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Graduation_Thesis_Management_System_BE.Controllers.DefenseSessionController",
+    "Method": "Create",
+    "RelativePath": "api/defense-sessions",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Graduation_Thesis_Management_System_BE.Models.Dtos.DefenseSessionDtos.CreateDefenseSessionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Graduation_Thesis_Management_System_BE.Controllers.DefenseSessionController",
+    "Method": "GetById",
+    "RelativePath": "api/defense-sessions/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Graduation_Thesis_Management_System_BE.Controllers.DefenseSessionController",
+    "Method": "Update",
+    "RelativePath": "api/defense-sessions/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "Graduation_Thesis_Management_System_BE.Models.Dtos.DefenseSessionDtos.CreateDefenseSessionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Graduation_Thesis_Management_System_BE.Controllers.DefenseSessionController",
+    "Method": "Delete",
+    "RelativePath": "api/defense-sessions/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Graduation_Thesis_Management_System_BE.Controllers.LecturerAssignmentController",
+    "Method": "Assign",
+    "RelativePath": "api/lecturer-assignments",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Graduation_Thesis_Management_System_BE.Models.Dtos.LecturerAssignmentDTOs.CreateLecturerAssignmentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Graduation_Thesis_Management_System_BE.Controllers.LecturerAssignmentController",
+    "Method": "Remove",
+    "RelativePath": "api/lecturer-assignments",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "topicId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "lecturerId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "role",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Graduation_Thesis_Management_System_BE.Controllers.LecturerAssignmentController",
+    "Method": "GetByTopic",
+    "RelativePath": "api/lecturer-assignments/topic/{topicId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "topicId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Graduation_Thesis_Management_System_BE.Controllers.LecturerController",
+    "Method": "GetAll",
+    "RelativePath": "api/lecturers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Graduation_Thesis_Management_System_BE.Controllers.LecturerController",
+    "Method": "Create",
+    "RelativePath": "api/lecturers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Graduation_Thesis_Management_System_BE.Models.Dtos.LecturerDtos.CreateLecturerDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Graduation_Thesis_Management_System_BE.Controllers.LecturerController",
+    "Method": "GetById",
+    "RelativePath": "api/lecturers/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Graduation_Thesis_Management_System_BE.Controllers.LecturerController",
+    "Method": "Update",
+    "RelativePath": "api/lecturers/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "Graduation_Thesis_Management_System_BE.Models.Dtos.LecturerDtos.CreateLecturerDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Graduation_Thesis_Management_System_BE.Controllers.LecturerController",
+    "Method": "Delete",
+    "RelativePath": "api/lecturers/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Graduation_Thesis_Management_System_BE.Controllers.OutlinePlanController",
+    "Method": "Create",
+    "RelativePath": "api/outline-plans",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Graduation_Thesis_Management_System_BE.Models.Dtos.OutlinePlanDtos.CreateOutlinePlanDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Graduation_Thesis_Management_System_BE.Controllers.OutlinePlanController",
+    "Method": "Update",
+    "RelativePath": "api/outline-plans/{outlineId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "outlineId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "Graduation_Thesis_Management_System_BE.Models.Dtos.OutlinePlanDtos.UpdateOutlinePlanDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Graduation_Thesis_Management_System_BE.Controllers.OutlinePlanController",
+    "Method": "GetByTopic",
+    "RelativePath": "api/outline-plans/topic/{topicId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "topicId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Graduation_Thesis_Management_System_BE.Controllers.ProgressReportController",
+    "Method": "Create",
+    "RelativePath": "api/progress-reports",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Graduation_Thesis_Management_System_BE.Models.Dtos.ProgressReportDtos.CreateProgressReportDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Graduation_Thesis_Management_System_BE.Controllers.ProgressReportController",
+    "Method": "Update",
+    "RelativePath": "api/progress-reports/{reportId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reportId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "Graduation_Thesis_Management_System_BE.Models.Dtos.ProgressReportDtos.UpdateProgressReportDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Graduation_Thesis_Management_System_BE.Controllers.ProgressReportController",
+    "Method": "GetByTopic",
+    "RelativePath": "api/progress-reports/topic/{topicId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "topicId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Graduation_Thesis_Management_System_BE.Controllers.ResultController",
+    "Method": "GetAll",
+    "RelativePath": "api/results",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Graduation_Thesis_Management_System_BE.Controllers.ResultController",
+    "Method": "Create",
+    "RelativePath": "api/results",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Graduation_Thesis_Management_System_BE.Models.Dtos.ResultDtos.CreateResultDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Graduation_Thesis_Management_System_BE.Controllers.ResultController",
+    "Method": "GetByTopic",
+    "RelativePath": "api/results/{topicId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "topicId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Graduation_Thesis_Management_System_BE.Controllers.ResultController",
+    "Method": "Update",
+    "RelativePath": "api/results/{topicId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "topicId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "Graduation_Thesis_Management_System_BE.Models.Dtos.ResultDtos.UpdateResultDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Graduation_Thesis_Management_System_BE.Controllers.StudentController",
+    "Method": "GetAll",
+    "RelativePath": "api/students",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Graduation_Thesis_Management_System_BE.Controllers.StudentController",
+    "Method": "Create",
+    "RelativePath": "api/students",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Graduation_Thesis_Management_System_BE.Models.Dtos.StudentDtos.CreateStudentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Graduation_Thesis_Management_System_BE.Controllers.StudentController",
+    "Method": "GetById",
+    "RelativePath": "api/students/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Graduation_Thesis_Management_System_BE.Controllers.StudentController",
+    "Method": "Update",
+    "RelativePath": "api/students/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "Graduation_Thesis_Management_System_BE.Models.Dtos.StudentDtos.CreateStudentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Graduation_Thesis_Management_System_BE.Controllers.StudentController",
+    "Method": "Delete",
+    "RelativePath": "api/students/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Graduation_Thesis_Management_System_BE.Controllers.ThesisController",
+    "Method": "Create",
+    "RelativePath": "api/theses",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Graduation_Thesis_Management_System_BE.Models.Dtos.ThesisDtos.CreateThesisDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Graduation_Thesis_Management_System_BE.Controllers.ThesisController",
+    "Method": "Update",
+    "RelativePath": "api/theses/{thesisId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "thesisId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "Graduation_Thesis_Management_System_BE.Models.Dtos.ThesisDtos.UpdateThesisDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Graduation_Thesis_Management_System_BE.Controllers.ThesisController",
+    "Method": "Approve",
+    "RelativePath": "api/theses/{thesisId}/approve",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "thesisId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "Graduation_Thesis_Management_System_BE.Models.Dtos.ThesisDtos.ApproveThesisDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Graduation_Thesis_Management_System_BE.Controllers.ThesisController",
+    "Method": "GetByTopic",
+    "RelativePath": "api/theses/topic/{topicId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "topicId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Graduation_Thesis_Management_System_BE.Controllers.TopicController",
+    "Method": "GetAll",
+    "RelativePath": "api/Topic",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Graduation_Thesis_Management_System_BE.Controllers.TopicController",
+    "Method": "Create",
+    "RelativePath": "api/Topic",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Graduation_Thesis_Management_System_BE.Models.Dtos.TopicDtos.CreateTopicDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Graduation_Thesis_Management_System_BE.Controllers.TopicController",
+    "Method": "GetById",
+    "RelativePath": "api/Topic/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Graduation_Thesis_Management_System_BE.Controllers.TopicController",
+    "Method": "Update",
+    "RelativePath": "api/Topic/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "Graduation_Thesis_Management_System_BE.Models.Dtos.TopicDtos.CreateTopicDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Graduation_Thesis_Management_System_BE.Controllers.TopicController",
+    "Method": "Delete",
+    "RelativePath": "api/Topic/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Graduation_Thesis_Management_System_BE.Controllers.UserController",
+    "Method": "GetAll",
+    "RelativePath": "api/users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Graduation_Thesis_Management_System_BE.Controllers.UserController",
+    "Method": "Create",
+    "RelativePath": "api/users",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Graduation_Thesis_Management_System_BE.Models.Dtos.UserDTos.CreateUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Graduation_Thesis_Management_System_BE.Controllers.UserController",
+    "Method": "GetById",
+    "RelativePath": "api/users/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Graduation_Thesis_Management_System_BE.Controllers.UserController",
+    "Method": "Update",
+    "RelativePath": "api/users/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "Graduation_Thesis_Management_System_BE.Models.Dtos.UserDTos.UpdateUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Graduation_Thesis_Management_System_BE.Controllers.UserController",
+    "Method": "Delete",
+    "RelativePath": "api/users/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
