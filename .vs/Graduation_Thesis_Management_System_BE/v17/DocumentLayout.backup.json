@@ -3,8 +3,144 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|c:\\users\\user\\documents\\\u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\be\\graduation_thesis_management_system_be\\services\\implementations\\lecturerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|solutionrelative:services\\implementations\\lecturerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|c:\\users\\user\\documents\\\u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\be\\graduation_thesis_management_system_be\\services\\interfaces\\iadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|solutionrelative:services\\interfaces\\iadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|c:\\users\\user\\documents\\\u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\be\\graduation_thesis_management_system_be\\services\\interfaces\\ilecturerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|solutionrelative:services\\interfaces\\ilecturerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|c:\\users\\user\\documents\\\u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\be\\graduation_thesis_management_system_be\\services\\implementations\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|solutionrelative:services\\implementations\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|c:\\users\\user\\documents\\\u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\be\\graduation_thesis_management_system_be\\services\\interfaces\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|solutionrelative:services\\interfaces\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|c:\\users\\user\\documents\\\u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\be\\graduation_thesis_management_system_be\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|c:\\users\\user\\documents\\\u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\be\\graduation_thesis_management_system_be\\services\\implementations\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|solutionrelative:services\\implementations\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|c:\\users\\user\\documents\\\u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\be\\graduation_thesis_management_system_be\\repositories\\interfaces\\ilecturerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|solutionrelative:repositories\\interfaces\\ilecturerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|c:\\users\\user\\documents\\\u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\be\\graduation_thesis_management_system_be\\repositories\\implementations\\lecturerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|solutionrelative:repositories\\implementations\\lecturerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|c:\\users\\user\\documents\\\u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\be\\graduation_thesis_management_system_be\\repositories\\interfaces\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|solutionrelative:repositories\\interfaces\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|c:\\users\\user\\documents\\\u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\be\\graduation_thesis_management_system_be\\repositories\\implementations\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|solutionrelative:repositories\\implementations\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|c:\\users\\user\\documents\\\u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\be\\graduation_thesis_management_system_be\\services\\implementations\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|solutionrelative:services\\implementations\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|c:\\users\\user\\documents\\\u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\be\\graduation_thesis_management_system_be\\repositories\\implementations\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|solutionrelative:repositories\\implementations\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|c:\\users\\user\\documents\\\u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\be\\graduation_thesis_management_system_be\\repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|solutionrelative:repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|c:\\users\\user\\documents\\\u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\be\\graduation_thesis_management_system_be\\services\\implementations\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|solutionrelative:services\\implementations\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|c:\\users\\user\\documents\\\u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\be\\graduation_thesis_management_system_be\\services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|solutionrelative:services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|c:\\users\\user\\documents\\\u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\be\\graduation_thesis_management_system_be\\repositories\\interfaces\\itopicrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|solutionrelative:repositories\\interfaces\\itopicrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|c:\\users\\user\\documents\\\u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\be\\graduation_thesis_management_system_be\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|c:\\users\\user\\documents\\\u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\be\\graduation_thesis_management_system_be\\repositories\\implementations\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|solutionrelative:repositories\\implementations\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|c:\\users\\user\\documents\\\u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\be\\graduation_thesis_management_system_be\\models\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|solutionrelative:models\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|c:\\users\\user\\documents\\\u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\be\\graduation_thesis_management_system_be\\models\\entities\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|solutionrelative:models\\entities\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|c:\\users\\user\\documents\\\u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\be\\graduation_thesis_management_system_be\\models\\dtos\\studentdtos\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|solutionrelative:models\\dtos\\studentdtos\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|c:\\users\\user\\documents\\\u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\be\\graduation_thesis_management_system_be\\models\\dtos\\lecturerdtos\\lecturerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|solutionrelative:models\\dtos\\lecturerdtos\\lecturerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|c:\\users\\user\\documents\\\u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\be\\graduation_thesis_management_system_be\\models\\dtos\\lecturerdtos\\createlecturerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|solutionrelative:models\\dtos\\lecturerdtos\\createlecturerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|c:\\users\\user\\documents\\\u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\be\\graduation_thesis_management_system_be\\models\\dtos\\admindtos\\admincreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|solutionrelative:models\\dtos\\admindtos\\admincreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|c:\\users\\user\\documents\\\u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\be\\graduation_thesis_management_system_be\\models\\dtos\\admindtos\\admindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|solutionrelative:models\\dtos\\admindtos\\admindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|c:\\users\\user\\documents\\\u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\be\\graduation_thesis_management_system_be\\models\\dtos\\userdtos\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|solutionrelative:models\\dtos\\userdtos\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|c:\\users\\user\\documents\\\u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\be\\graduation_thesis_management_system_be\\models\\dtos\\userdtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|solutionrelative:models\\dtos\\userdtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|c:\\users\\user\\documents\\\u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\be\\graduation_thesis_management_system_be\\models\\dtos\\userdtos\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|solutionrelative:models\\dtos\\userdtos\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|c:\\users\\user\\documents\\\u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\be\\graduation_thesis_management_system_be\\models\\dtos\\studentdtos\\createstudentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|solutionrelative:models\\dtos\\studentdtos\\createstudentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|c:\\users\\user\\documents\\\u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\be\\graduation_thesis_management_system_be\\models\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|solutionrelative:models\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|c:\\users\\user\\documents\\\u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\be\\graduation_thesis_management_system_be\\models\\entities\\lecturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|solutionrelative:models\\entities\\lecturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|c:\\users\\user\\documents\\\u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\be\\graduation_thesis_management_system_be\\models\\entities\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|solutionrelative:models\\entities\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|c:\\users\\user\\documents\\\u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\be\\graduation_thesis_management_system_be\\models\\dtos\\authdtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|solutionrelative:models\\dtos\\authdtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|c:\\users\\user\\documents\\\u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\be\\graduation_thesis_management_system_be\\models\\dtos\\resultdtos\\createresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3450DD07-7C52-48E7-87AB-336ADF3D8AA2}|Graduation_Thesis_Management_System_BE.csproj|solutionrelative:models\\dtos\\resultdtos\\createresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,20 +150,464 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "IAdminService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Services\\Interfaces\\IAdminService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IAdminService.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Services\\Interfaces\\IAdminService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IAdminService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T14:55:23.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ILecturerService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Services\\Interfaces\\ILecturerService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\ILecturerService.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Services\\Interfaces\\ILecturerService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\ILecturerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T14:55:09.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IStudentService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Services\\Interfaces\\IStudentService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IStudentService.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Services\\Interfaces\\IStudentService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IStudentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T14:54:41.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Services\\Implementations\\JwtService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\JwtService.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Services\\Implementations\\JwtService.cs",
+              "RelativeToolTip": "Services\\Implementations\\JwtService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAIwCMAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T14:53:03.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ILecturerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Repositories\\Interfaces\\ILecturerRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\ILecturerRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Repositories\\Interfaces\\ILecturerRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\ILecturerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T14:52:53.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Controllers\\UserController.cs",
               "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAYwDoAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-04T05:53:24.015Z",
+              "WhenOpened": "2026-04-02T12:48:59.904Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LecturerService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Services\\Implementations\\LecturerService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\LecturerService.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Services\\Implementations\\LecturerService.cs",
+              "RelativeToolTip": "Services\\Implementations\\LecturerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwB4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T13:07:18.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IStudentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Repositories\\Interfaces\\IStudentRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IStudentRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Repositories\\Interfaces\\IStudentRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IStudentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T14:52:38.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Services\\Implementations\\StudentService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\StudentService.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Services\\Implementations\\StudentService.cs",
+              "RelativeToolTip": "Services\\Implementations\\StudentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T13:07:22.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AdminService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Services\\Implementations\\AdminService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\AdminService.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Services\\Implementations\\AdminService.cs",
+              "RelativeToolTip": "Services\\Implementations\\AdminService.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAwwD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T13:07:29.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Repositories\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Repositories\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T14:45:25.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Services\\Implementations\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\UserService.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Services\\Implementations\\UserService.cs",
+              "RelativeToolTip": "Services\\Implementations\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T12:49:25.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Services\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Services\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T14:50:06.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Repositories\\Implementations\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Implementations\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Repositories\\Implementations\\UserRepository.cs",
+              "RelativeToolTip": "Repositories\\Implementations\\UserRepository.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAkwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T14:41:43.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LecturerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Repositories\\Implementations\\LecturerRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Implementations\\LecturerRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Repositories\\Implementations\\LecturerRepository.cs",
+              "RelativeToolTip": "Repositories\\Implementations\\LecturerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T14:41:08.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ITopicRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Repositories\\Interfaces\\ITopicRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\ITopicRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Repositories\\Interfaces\\ITopicRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\ITopicRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T14:49:27.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StudentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Repositories\\Implementations\\StudentRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Implementations\\StudentRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Repositories\\Implementations\\StudentRepository.cs",
+              "RelativeToolTip": "Repositories\\Implementations\\StudentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T14:41:32.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AdminRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Repositories\\Implementations\\AdminRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Implementations\\AdminRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Repositories\\Implementations\\AdminRepository.cs",
+              "RelativeToolTip": "Repositories\\Implementations\\AdminRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwCAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T14:40:33.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Models\\Entities\\Student.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Student.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Models\\Entities\\Student.cs",
+              "RelativeToolTip": "Models\\Entities\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T13:06:00.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Models\\Entities\\Admin.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Admin.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Models\\Entities\\Admin.cs",
+              "RelativeToolTip": "Models\\Entities\\Admin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T13:05:45.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAkwDQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T13:02:56.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "StudentDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Models\\Dtos\\StudentDtos\\StudentDto.cs",
+              "RelativeDocumentMoniker": "Models\\Dtos\\StudentDtos\\StudentDto.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Models\\Dtos\\StudentDtos\\StudentDto.cs",
+              "RelativeToolTip": "Models\\Dtos\\StudentDtos\\StudentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T13:04:51.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LecturerDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Models\\Dtos\\LecturerDtos\\LecturerDto.cs",
+              "RelativeDocumentMoniker": "Models\\Dtos\\LecturerDtos\\LecturerDto.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Models\\Dtos\\LecturerDtos\\LecturerDto.cs",
+              "RelativeToolTip": "Models\\Dtos\\LecturerDtos\\LecturerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T13:05:22.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CreateLecturerDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Models\\Dtos\\LecturerDtos\\CreateLecturerDto.cs",
+              "RelativeDocumentMoniker": "Models\\Dtos\\LecturerDtos\\CreateLecturerDto.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Models\\Dtos\\LecturerDtos\\CreateLecturerDto.cs",
+              "RelativeToolTip": "Models\\Dtos\\LecturerDtos\\CreateLecturerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T13:05:17.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AdminCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Models\\Dtos\\AdminDtos\\AdminCreateDto.cs",
+              "RelativeDocumentMoniker": "Models\\Dtos\\AdminDtos\\AdminCreateDto.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Models\\Dtos\\AdminDtos\\AdminCreateDto.cs",
+              "RelativeToolTip": "Models\\Dtos\\AdminDtos\\AdminCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T13:05:34.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AdminDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Models\\Dtos\\AdminDtos\\AdminDto.cs",
+              "RelativeDocumentMoniker": "Models\\Dtos\\AdminDtos\\AdminDto.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Models\\Dtos\\AdminDtos\\AdminDto.cs",
+              "RelativeToolTip": "Models\\Dtos\\AdminDtos\\AdminDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T13:05:38.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UpdateUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Models\\Dtos\\UserDtos\\UpdateUserDto.cs",
+              "RelativeDocumentMoniker": "Models\\Dtos\\UserDtos\\UpdateUserDto.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Models\\Dtos\\UserDtos\\UpdateUserDto.cs",
+              "RelativeToolTip": "Models\\Dtos\\UserDtos\\UpdateUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T13:04:41.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Models\\Dtos\\UserDtos\\UserDto.cs",
+              "RelativeDocumentMoniker": "Models\\Dtos\\UserDtos\\UserDto.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Models\\Dtos\\UserDtos\\UserDto.cs",
+              "RelativeToolTip": "Models\\Dtos\\UserDtos\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T12:48:23.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CreateUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Models\\Dtos\\UserDtos\\CreateUserDto.cs",
+              "RelativeDocumentMoniker": "Models\\Dtos\\UserDtos\\CreateUserDto.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Models\\Dtos\\UserDtos\\CreateUserDto.cs",
+              "RelativeToolTip": "Models\\Dtos\\UserDtos\\CreateUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T13:00:02.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CreateStudentDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Models\\Dtos\\StudentDtos\\CreateStudentDto.cs",
+              "RelativeDocumentMoniker": "Models\\Dtos\\StudentDtos\\CreateStudentDto.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Models\\Dtos\\StudentDtos\\CreateStudentDto.cs",
+              "RelativeToolTip": "Models\\Dtos\\StudentDtos\\CreateStudentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T13:04:59.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Models\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Models\\Entities\\User.cs",
+              "RelativeToolTip": "Models\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T13:05:55.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Lecturer.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Models\\Entities\\Lecturer.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Lecturer.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Models\\Entities\\Lecturer.cs",
+              "RelativeToolTip": "Models\\Entities\\Lecturer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T13:06:06.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Class.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Models\\Entities\\Class.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Class.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Models\\Entities\\Class.cs",
+              "RelativeToolTip": "Models\\Entities\\Class.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T14:36:56.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Models\\Dtos\\AuthDtos\\LoginDto.cs",
+              "RelativeDocumentMoniker": "Models\\Dtos\\AuthDtos\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Models\\Dtos\\AuthDtos\\LoginDto.cs",
+              "RelativeToolTip": "Models\\Dtos\\AuthDtos\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T13:05:31.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "CreateResultDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Models\\Dtos\\ResultDtos\\CreateResultDto.cs",
+              "RelativeDocumentMoniker": "Models\\Dtos\\ResultDtos\\CreateResultDto.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BE\\Graduation_Thesis_Management_System_BE\\Models\\Dtos\\ResultDtos\\CreateResultDto.cs",
+              "RelativeToolTip": "Models\\Dtos\\ResultDtos\\CreateResultDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T13:05:11.525Z"
             }
           ]
         }

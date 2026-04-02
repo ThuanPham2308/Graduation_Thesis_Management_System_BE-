@@ -5,7 +5,7 @@ namespace Graduation_Thesis_Management_System_BE.Models.Entities;
 
 public partial class Lecturer
 {
-    public string LecturerId { get; set; } = null!;
+    public Guid LecturerId { get; set; }
 
     public string Position { get; set; } = null!;
 
@@ -13,7 +13,7 @@ public partial class Lecturer
 
     public string AcademicDegree { get; set; } = null!;
 
-    public string? UserId { get; set; }
+    public Guid? UserId { get; set; }
 
     public virtual ICollection<Class> Classes { get; set; } = new List<Class>();
 

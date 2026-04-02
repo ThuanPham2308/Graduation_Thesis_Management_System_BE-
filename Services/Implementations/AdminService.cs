@@ -41,7 +41,7 @@ namespace Graduation_Thesis_Management_System_BE.Services.Implementations
 
             var admin = new Admin
             {
-                AdminId = Guid.NewGuid().ToString("N")[..20],
+                AdminId = Guid.NewGuid(),
                 UserId = dto.UserId
             };
 

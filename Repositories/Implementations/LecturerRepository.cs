@@ -22,7 +22,7 @@ namespace Graduation_Thesis_Management_System_BE.Repositories.Implementations
                 .ToListAsync();
         }
 
-        public async Task<Lecturer?> GetByIdAsync(string lecturerId)
+        public async Task<Lecturer?> GetByIdAsync(Guid lecturerId)
         {
             return await _context.Lecturers
                 .Include(l => l.User)
