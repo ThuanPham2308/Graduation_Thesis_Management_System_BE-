@@ -2,9 +2,9 @@
 {
     public class CreateStudentDto
     {
-        public string StudentId { get; set; }
+        public Guid StudentId { get; set; }
         public int StudyYear { get; set; }
-        public string UserId { get; set; }
-        public string ClassId { get; set; }
+        public Guid UserId { get; set; }
+        public Guid ClassId { get; set; }
     }
 }

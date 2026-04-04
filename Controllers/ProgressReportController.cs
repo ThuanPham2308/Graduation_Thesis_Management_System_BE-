@@ -16,7 +16,7 @@ namespace Graduation_Thesis_Management_System_BE.Controllers
         }
 
         [HttpGet("topic/{topicId}")]
-        public async Task<IActionResult> GetByTopic(string topicId)
+        public async Task<IActionResult> GetByTopic(Guid topicId)
         {
             return Ok(await _service.GetByTopicAsync(topicId));
         }
@@ -29,7 +29,7 @@ namespace Graduation_Thesis_Management_System_BE.Controllers
         }
 
         [HttpPut("{reportId}")]
-        public async Task<IActionResult> Update(string reportId, UpdateProgressReportDto dto)
+        public async Task<IActionResult> Update(Guid reportId, UpdateProgressReportDto dto)
         {
             await _service.UpdateAsync(reportId, dto);
             return Ok("Update progress report successfully");

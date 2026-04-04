@@ -2,7 +2,7 @@
 {
     public class DefenseSessionDto
     {
-        public string SessionId { get; set; }
+        public Guid SessionId { get; set; }
         public string SessionName { get; set; }
         public string AcademicYear { get; set; }
         public string? Semester { get; set; }

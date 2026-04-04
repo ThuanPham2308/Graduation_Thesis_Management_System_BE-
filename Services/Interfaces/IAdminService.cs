@@ -6,6 +6,6 @@ namespace Graduation_Thesis_Management_System_BE.Services.Interfaces
     {
         Task<List<AdminDto>> GetAllAsync();
         Task CreateAsync(AdminCreateDto dto);
-        Task DeleteAsync(string adminId);
+        Task DeleteAsync(Guid adminId);
     }
 }

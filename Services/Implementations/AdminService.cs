@@ -41,7 +41,7 @@ namespace Graduation_Thesis_Management_System_BE.Services.Implementations
 
             var admin = new Admin
             {
-                AdminId = Guid.NewGuid().ToString("N")[..20],
+                AdminId = Guid.NewGuid(),
                 UserId = dto.UserId
             };
 
@@ -49,7 +49,7 @@ namespace Graduation_Thesis_Management_System_BE.Services.Implementations
             await _adminRepo.SaveAsync();
         }
 
-        public async Task DeleteAsync(string adminId)
+        public async Task DeleteAsync(Guid adminId)
         {
             var admin = await _adminRepo.GetByIdAsync(adminId);
             if (admin == null)

@@ -29,7 +29,7 @@ namespace Graduation_Thesis_Management_System_BE.Controllers
         }
 
         [HttpDelete("{id}")]
-        public async Task<IActionResult> Delete(string id)
+        public async Task<IActionResult> Delete(Guid id)
         {
             await _service.DeleteAsync(id);
             return Ok("Xóa admin thành công");

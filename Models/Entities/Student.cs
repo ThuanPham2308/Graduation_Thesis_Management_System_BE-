@@ -5,13 +5,13 @@ namespace Graduation_Thesis_Management_System_BE.Models.Entities;
 
 public partial class Student
 {
-    public string StudentId { get; set; } = null!;
+    public Guid StudentId { get; set; } 
 
-    public string ClassId { get; set; } = null!;
+    public Guid ClassId { get; set; } 
 
     public int? StudyYear { get; set; }
 
-    public string? UserId { get; set; }
+    public Guid UserId { get; set; }
 
     public virtual Class Class { get; set; } = null!;
 

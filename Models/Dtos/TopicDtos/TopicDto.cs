@@ -2,11 +2,11 @@
 {
     public class TopicDto
     {
-        public string TopicId { get; set; } = null!;
+        public Guid TopicId { get; set; } 
         public string TopicTitle { get; set; } = null!;
         public string Description { get; set; } = null!;
-        public string StudentId { get; set; } = null!;
-        public string? SessionId { get; set; }
+        public Guid StudentId { get; set; } 
+        public Guid? SessionId { get; set; }
         public DateTime? RegistrationDate { get; set; }
         public string ApprovalStatus { get; set; } = null!;
     }

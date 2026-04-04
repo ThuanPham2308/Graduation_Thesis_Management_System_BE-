@@ -5,9 +5,9 @@ namespace Graduation_Thesis_Management_System_BE.Models.Entities;
 
 public partial class Thesis
 {
-    public string ThesisId { get; set; } = null!;
+    public Guid ThesisId { get; set; }
 
-    public string TopicId { get; set; } = null!;
+    public Guid TopicId { get; set; } 
 
     public DateTime? SubmissionDate { get; set; }
 

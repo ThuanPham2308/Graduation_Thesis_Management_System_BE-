@@ -14,7 +14,7 @@ namespace Graduation_Thesis_Management_System_BE.Services.Implementations
             _repository = repository;
         }
 
-        public async Task<List<LecturerAssignmentDto>> GetByTopicAsync(string topicId)
+        public async Task<List<LecturerAssignmentDto>> GetByTopicAsync(Guid topicId)
         {
             var list = await _repository.GetByTopicAsync(topicId);
 
@@ -38,7 +38,7 @@ namespace Graduation_Thesis_Management_System_BE.Services.Implementations
             await _repository.AddAsync(entity);
         }
 
-        public async Task RemoveAsync(string topicId, string lecturerId, string role)
+        public async Task RemoveAsync(Guid topicId, Guid lecturerId, string role)
         {
             await _repository.DeleteAsync(topicId, lecturerId, role);
         }

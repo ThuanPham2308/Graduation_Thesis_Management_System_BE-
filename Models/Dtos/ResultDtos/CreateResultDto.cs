@@ -2,8 +2,8 @@
 {
     public class CreateResultDto
     {
-        public string ResultId { get; set; }
-        public string TopicId { get; set; } 
+        public Guid ResultId { get; set; }
+        public Guid TopicId { get; set; } 
         public decimal? ProcessScore { get; set; }
         public decimal? DefenseScore { get; set; }
         public string? Comment { get; set; }

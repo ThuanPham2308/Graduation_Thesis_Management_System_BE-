@@ -5,15 +5,15 @@ namespace Graduation_Thesis_Management_System_BE.Models.Entities;
 
 public partial class Topic
 {
-    public string TopicId { get; set; } = null!;
+    public Guid TopicId { get; set; } 
 
     public string TopicTitle { get; set; } = null!;
 
     public string Description { get; set; } = null!;
 
-    public string StudentId { get; set; } = null!;
+    public Guid StudentId { get; set; } 
 
-    public string? SessionId { get; set; }
+    public Guid? SessionId { get; set; }
 
     public DateTime? RegistrationDate { get; set; }
 

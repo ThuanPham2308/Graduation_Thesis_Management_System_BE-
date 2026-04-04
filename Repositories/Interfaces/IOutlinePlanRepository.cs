@@ -4,8 +4,8 @@ namespace Graduation_Thesis_Management_System_BE.Repositories.Interfaces
 {
     public interface IOutlinePlanRepository
     {
-        Task<OutlinePlan?> GetByTopicAsync(string topicId);
-        Task<OutlinePlan?> GetByIdAsync(string outlineId);
+        Task<OutlinePlan?> GetByTopicAsync(Guid topicId);
+        Task<OutlinePlan?> GetByIdAsync(Guid outlineId);
         Task AddAsync(OutlinePlan outlinePlan);
         Task UpdateAsync(OutlinePlan outlinePlan);
     }

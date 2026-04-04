@@ -5,7 +5,7 @@ namespace Graduation_Thesis_Management_System_BE.Models.Entities;
 
 public partial class User
 {
-    public string UserId { get; set; } = null!;
+    public Guid UserId { get; set; }
 
     public string FullName { get; set; } = null!;
 

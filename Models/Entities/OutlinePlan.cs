@@ -5,9 +5,9 @@ namespace Graduation_Thesis_Management_System_BE.Models.Entities;
 
 public partial class OutlinePlan
 {
-    public string OutlineId { get; set; } = null!;
+    public Guid OutlineId { get; set; } 
 
-    public string TopicId { get; set; } = null!;
+    public Guid TopicId { get; set; }
 
     public string OutlineContent { get; set; } = null!;
 

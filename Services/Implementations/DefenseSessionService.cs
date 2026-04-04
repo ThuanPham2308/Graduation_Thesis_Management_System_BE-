@@ -30,7 +30,7 @@ namespace Graduation_Thesis_Management_System_BE.Services.Implementations
             }).ToList();
         }
 
-        public async Task<DefenseSessionDto?> GetByIdAsync(string sessionId)
+        public async Task<DefenseSessionDto?> GetByIdAsync(Guid sessionId)
         {
             var s = await _repository.GetByIdAsync(sessionId);
             if (s == null) return null;
@@ -66,7 +66,7 @@ namespace Graduation_Thesis_Management_System_BE.Services.Implementations
             await _repository.AddAsync(session);
         }
 
-        public async Task UpdateAsync(string sessionId, CreateDefenseSessionDto dto)
+        public async Task UpdateAsync(Guid sessionId, CreateDefenseSessionDto dto)
         {
             var s = await _repository.GetByIdAsync(sessionId);
             if (s == null) throw new Exception("Defense session not found");
@@ -81,7 +81,7 @@ namespace Graduation_Thesis_Management_System_BE.Services.Implementations
             await _repository.UpdateAsync(s);
         }
 
-        public async Task DeleteAsync(string sessionId)
+        public async Task DeleteAsync(Guid sessionId)
         {
             var s = await _repository.GetByIdAsync(sessionId);
             if (s == null) throw new Exception("Defense session not found");

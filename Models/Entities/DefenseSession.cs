@@ -5,7 +5,7 @@ namespace Graduation_Thesis_Management_System_BE.Models.Entities;
 
 public partial class DefenseSession
 {
-    public string SessionId { get; set; } = null!;
+    public Guid SessionId { get; set; } 
 
     public string SessionName { get; set; } = null!;
 

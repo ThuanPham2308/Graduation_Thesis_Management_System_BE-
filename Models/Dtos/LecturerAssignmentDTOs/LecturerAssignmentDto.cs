@@ -2,8 +2,8 @@
 {
     public class LecturerAssignmentDto
     {
-        public string TopicId { get; set; }
-        public string LecturerId { get; set; } 
+        public Guid TopicId { get; set; }
+        public Guid LecturerId { get; set; } 
         public string Role { get; set; } 
     }
 }

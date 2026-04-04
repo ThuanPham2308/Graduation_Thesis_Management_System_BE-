@@ -29,7 +29,7 @@ namespace Graduation_Thesis_Management_System_BE.Services.Implementations
             }).ToList();
         }
 
-        public async Task<ResultDto?> GetByTopicIdAsync(string topicId)
+        public async Task<ResultDto?> GetByTopicIdAsync(Guid topicId)
         {
             var result = await _repo.GetByTopicIdAsync(topicId);
             if (result == null) return null;
@@ -60,7 +60,7 @@ namespace Graduation_Thesis_Management_System_BE.Services.Implementations
             await _repo.SaveAsync();
         }
 
-        public async Task UpdateAsync(string topicId, UpdateResultDto dto)
+        public async Task UpdateAsync(Guid topicId, UpdateResultDto dto)
         {
             var result = await _repo.GetByTopicIdAsync(topicId)
                 ?? throw new Exception("Result not found");

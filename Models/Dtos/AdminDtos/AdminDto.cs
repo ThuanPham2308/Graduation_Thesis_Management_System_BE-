@@ -2,8 +2,8 @@
 {
     public class AdminDto
     {
-        public string AdminId { get; set; } = null!;
-        public string UserId { get; set; } = null!;
+        public Guid AdminId { get; set; } 
+        public Guid? UserId { get; set; } 
         public string FullName { get; set; } = null!;
         public string Email { get; set; } = null!;
     }

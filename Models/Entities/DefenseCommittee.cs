@@ -5,7 +5,7 @@ namespace Graduation_Thesis_Management_System_BE.Models.Entities;
 
 public partial class DefenseCommittee
 {
-    public string CommitteeId { get; set; } = null!;
+    public Guid CommitteeId { get; set; }
 
     public string CommitteeName { get; set; } = null!;
 

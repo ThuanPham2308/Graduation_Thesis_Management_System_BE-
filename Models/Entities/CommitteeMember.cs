@@ -5,9 +5,9 @@ namespace Graduation_Thesis_Management_System_BE.Models.Entities;
 
 public partial class CommitteeMember
 {
-    public string CommitteeId { get; set; } = null!;
+    public Guid CommitteeId { get; set; } 
 
-    public string LecturerId { get; set; } = null!;
+    public Guid LecturerId { get; set; }
 
     public string Role { get; set; } = null!;
 

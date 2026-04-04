@@ -5,9 +5,9 @@ namespace Graduation_Thesis_Management_System_BE.Services.Interfaces
     public interface ITopicService
     {
         Task<List<TopicDto>> GetAllAsync();
-        Task<TopicDto?> GetByIdAsync(string topicId);
+        Task<TopicDto?> GetByIdAsync(Guid topicId);
         Task CreateAsync(CreateTopicDto dto);
-        Task UpdateAsync(string topicId, CreateTopicDto dto);
-        Task DeleteAsync(string topicId);
+        Task UpdateAsync(Guid topicId, CreateTopicDto dto);
+        Task DeleteAsync(Guid topicId);
     }
 }

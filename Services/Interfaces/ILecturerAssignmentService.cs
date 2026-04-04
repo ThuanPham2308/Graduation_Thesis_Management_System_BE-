@@ -4,8 +4,8 @@ namespace Graduation_Thesis_Management_System_BE.Services.Interfaces
 {
     public interface ILecturerAssignmentService
     {
-        Task<List<LecturerAssignmentDto>> GetByTopicAsync(string topicId);
+        Task<List<LecturerAssignmentDto>> GetByTopicAsync(Guid topicId);
         Task AssignAsync(CreateLecturerAssignmentDto dto);
-        Task RemoveAsync(string topicId, string lecturerId, string role);
+        Task RemoveAsync(Guid topicId, Guid lecturerId, string role);
     }
 }

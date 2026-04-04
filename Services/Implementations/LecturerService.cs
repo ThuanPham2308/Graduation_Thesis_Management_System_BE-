@@ -30,7 +30,7 @@ namespace Graduation_Thesis_Management_System_BE.Services.Implementations
             }).ToList();
         }
 
-        public async Task<LecturerDto?> GetByIdAsync(string lecturerId)
+        public async Task<LecturerDto?> GetByIdAsync(Guid lecturerId)
         {
             var l = await _repository.GetByIdAsync(lecturerId);
             if (l == null) return null;
@@ -61,7 +61,7 @@ namespace Graduation_Thesis_Management_System_BE.Services.Implementations
             await _repository.AddAsync(lecturer);
         }
 
-        public async Task UpdateAsync(string lecturerId, CreateLecturerDto dto)
+        public async Task UpdateAsync(Guid lecturerId, CreateLecturerDto dto)
         {
             var lecturer = await _repository.GetByIdAsync(lecturerId);
             if (lecturer == null) throw new Exception("Lecturer not found");
@@ -74,7 +74,7 @@ namespace Graduation_Thesis_Management_System_BE.Services.Implementations
             await _repository.UpdateAsync(lecturer);
         }
 
-        public async Task DeleteAsync(string lecturerId)
+        public async Task DeleteAsync(Guid lecturerId)
         {
             var lecturer = await _repository.GetByIdAsync(lecturerId);
             if (lecturer == null) throw new Exception("Lecturer not found");

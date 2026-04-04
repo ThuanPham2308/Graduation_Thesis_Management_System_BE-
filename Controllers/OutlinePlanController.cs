@@ -16,7 +16,7 @@ namespace Graduation_Thesis_Management_System_BE.Controllers
         }
 
         [HttpGet("topic/{topicId}")]
-        public async Task<IActionResult> GetByTopic(string topicId)
+        public async Task<IActionResult> GetByTopic(Guid topicId)
         {
             var result = await _service.GetByTopicAsync(topicId);
             if (result == null) return NotFound();
@@ -31,7 +31,7 @@ namespace Graduation_Thesis_Management_System_BE.Controllers
         }
 
         [HttpPut("{outlineId}")]
-        public async Task<IActionResult> Update(string outlineId, UpdateOutlinePlanDto dto)
+        public async Task<IActionResult> Update(Guid outlineId, UpdateOutlinePlanDto dto)
         {
             await _service.UpdateAsync(outlineId, dto);
             return Ok("Update outline plan successfully");

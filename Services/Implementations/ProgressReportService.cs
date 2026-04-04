@@ -14,7 +14,7 @@ namespace Graduation_Thesis_Management_System_BE.Services.Implementations
             _repository = repository;
         }
 
-        public async Task<List<ProgressReportDto>> GetByTopicAsync(string topicId)
+        public async Task<List<ProgressReportDto>> GetByTopicAsync(Guid topicId)
         {
             var list = await _repository.GetByTopicAsync(topicId);
 
@@ -43,7 +43,7 @@ namespace Graduation_Thesis_Management_System_BE.Services.Implementations
             await _repository.AddAsync(entity);
         }
 
-        public async Task UpdateAsync(string reportId, UpdateProgressReportDto dto)
+        public async Task UpdateAsync(Guid reportId, UpdateProgressReportDto dto)
         {
             var entity = await _repository.GetByIdAsync(reportId);
             if (entity == null)

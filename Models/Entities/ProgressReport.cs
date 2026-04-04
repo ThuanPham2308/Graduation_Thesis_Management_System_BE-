@@ -5,9 +5,9 @@ namespace Graduation_Thesis_Management_System_BE.Models.Entities;
 
 public partial class ProgressReport
 {
-    public string ReportId { get; set; } = null!;
+    public Guid ReportId { get; set; } 
 
-    public string TopicId { get; set; } = null!;
+    public Guid TopicId { get; set; } 
 
     public string? ReportContent { get; set; }
 

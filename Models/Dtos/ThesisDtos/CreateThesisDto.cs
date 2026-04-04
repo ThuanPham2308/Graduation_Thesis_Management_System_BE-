@@ -2,8 +2,8 @@
 {
     public class CreateThesisDto
     {
-        public string ThesisId { get; set; } 
-        public string TopicId { get; set; } 
+        public Guid ThesisId { get; set; } 
+        public Guid TopicId { get; set; } 
         public string? FilePath { get; set; }
         public string? Description { get; set; }
     }

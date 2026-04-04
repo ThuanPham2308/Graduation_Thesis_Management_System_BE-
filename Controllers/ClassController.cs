@@ -21,7 +21,7 @@ namespace Graduation_Thesis_Management_System_BE.Controllers
             => Ok(await _service.GetAllAsync());
 
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetById(string id)
+        public async Task<IActionResult> GetById(Guid id)
         {
             var result = await _service.GetByIdAsync(id);
             return result == null ? NotFound() : Ok(result);
@@ -35,14 +35,14 @@ namespace Graduation_Thesis_Management_System_BE.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> Update(string id, CreateClassDto dto)
+        public async Task<IActionResult> Update(Guid id, CreateClassDto dto)
         {
             await _service.UpdateAsync(id, dto);
             return Ok();
         }
 
         [HttpDelete("{id}")]
-        public async Task<IActionResult> Delete(string id)
+        public async Task<IActionResult> Delete(Guid id)
         {
             await _service.DeleteAsync(id);
             return Ok();

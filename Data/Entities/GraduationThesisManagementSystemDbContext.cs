@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Graduation_Thesis_Management_System_BE.Models.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace Graduation_Thesis_Management_System_BE.Data;
+namespace Graduation_Thesis_Management_System_BE.Data.Entities;
 
 public partial class GraduationThesisManagementSystemDbContext : DbContext
 {

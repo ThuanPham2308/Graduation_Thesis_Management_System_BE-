@@ -2,8 +2,8 @@
 {
     public class CreateOutlinePlanDto
     {
-        public string OutlineId { get; set; } 
-        public string TopicId { get; set; }
+        public Guid OutlineId { get; set; } 
+        public Guid TopicId { get; set; }
         public string OutlineContent { get; set; }
         public string ExecutionPlan { get; set; } 
         public string? Note { get; set; }

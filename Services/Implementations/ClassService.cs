@@ -30,7 +30,7 @@ namespace Graduation_Thesis_Management_System_BE.Services.Implementations
             }).ToList();
         }
 
-        public async Task<ClassDto?> GetByIdAsync(string classId)
+        public async Task<ClassDto?> GetByIdAsync(Guid classId)
         {
             var c = await _repository.GetByIdAsync(classId);
             if (c == null) return null;
@@ -62,7 +62,7 @@ namespace Graduation_Thesis_Management_System_BE.Services.Implementations
             await _repository.AddAsync(classEntity);
         }
 
-        public async Task UpdateAsync(string classId, CreateClassDto dto)
+        public async Task UpdateAsync(Guid classId, CreateClassDto dto)
         {
             var c = await _repository.GetByIdAsync(classId);
             if (c == null) throw new Exception("Class not found");
@@ -76,7 +76,7 @@ namespace Graduation_Thesis_Management_System_BE.Services.Implementations
             await _repository.UpdateAsync(c);
         }
 
-        public async Task DeleteAsync(string classId)
+        public async Task DeleteAsync(Guid classId)
         {
             var c = await _repository.GetByIdAsync(classId);
             if (c == null) throw new Exception("Class not found");

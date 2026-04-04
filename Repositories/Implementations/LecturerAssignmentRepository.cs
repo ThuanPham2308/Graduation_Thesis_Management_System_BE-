@@ -1,4 +1,4 @@
-﻿using Graduation_Thesis_Management_System_BE.Data;
+﻿using Graduation_Thesis_Management_System_BE.Data.Entities;
 using Graduation_Thesis_Management_System_BE.Models.Entities;
 using Graduation_Thesis_Management_System_BE.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
@@ -14,7 +14,7 @@ namespace Graduation_Thesis_Management_System_BE.Repositories.Implementations
             _context = context;
         }
 
-        public async Task<List<LecturerAssignment>> GetByTopicAsync(string topicId)
+        public async Task<List<LecturerAssignment>> GetByTopicAsync(Guid topicId)
         {
             return await _context.LecturerAssignments
                 .Where(x => x.TopicId == topicId)
@@ -27,7 +27,7 @@ namespace Graduation_Thesis_Management_System_BE.Repositories.Implementations
             await _context.SaveChangesAsync();
         }
 
-        public async Task DeleteAsync(string topicId, string lecturerId, string role)
+        public async Task DeleteAsync(Guid topicId, Guid lecturerId, string role)
         {
             var entity = await _context.LecturerAssignments.FindAsync(topicId, lecturerId, role);
             if (entity != null)

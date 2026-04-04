@@ -14,7 +14,7 @@ namespace Graduation_Thesis_Management_System_BE.Services.Implementations
             _repository = repository;
         }
 
-        public async Task<ThesisDto?> GetByTopicAsync(string topicId)
+        public async Task<ThesisDto?> GetByTopicAsync(Guid topicId)
         {
             var entity = await _repository.GetByTopicAsync(topicId);
             if (entity == null) return null;
@@ -50,7 +50,7 @@ namespace Graduation_Thesis_Management_System_BE.Services.Implementations
             await _repository.AddAsync(entity);
         }
 
-        public async Task UpdateAsync(string thesisId, UpdateThesisDto dto)
+        public async Task UpdateAsync(Guid thesisId, UpdateThesisDto dto)
         {
             var entity = await _repository.GetByIdAsync(thesisId);
             if (entity == null)
@@ -63,7 +63,7 @@ namespace Graduation_Thesis_Management_System_BE.Services.Implementations
             await _repository.UpdateAsync(entity);
         }
 
-        public async Task ApproveAsync(string thesisId, ApproveThesisDto dto)
+        public async Task ApproveAsync(Guid thesisId, ApproveThesisDto dto)
         {
             var entity = await _repository.GetByIdAsync(thesisId);
             if (entity == null)

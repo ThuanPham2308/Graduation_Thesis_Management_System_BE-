@@ -2,8 +2,8 @@
 {
     public class CreateProgressReportDto
     {
-        public string ReportId { get; set; }
-        public string TopicId { get; set; } 
+        public Guid ReportId { get; set; }
+        public Guid TopicId { get; set; } 
         public string? ReportContent { get; set; }
         public string? FilePath { get; set; }
     }

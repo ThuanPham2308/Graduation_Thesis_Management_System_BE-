@@ -1,4 +1,4 @@
-﻿using Graduation_Thesis_Management_System_BE.Data;
+﻿using Graduation_Thesis_Management_System_BE.Data.Entities;
 using Graduation_Thesis_Management_System_BE.Models.Entities;
 using Graduation_Thesis_Management_System_BE.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
@@ -14,7 +14,7 @@ namespace Graduation_Thesis_Management_System_BE.Repositories.Implementations
             _context = context;
         }
 
-        public async Task<List<ProgressReport>> GetByTopicAsync(string topicId)
+        public async Task<List<ProgressReport>> GetByTopicAsync(Guid topicId)
         {
             return await _context.ProgressReports
                 .Where(x => x.TopicId == topicId)
@@ -22,7 +22,7 @@ namespace Graduation_Thesis_Management_System_BE.Repositories.Implementations
                 .ToListAsync();
         }
 
-        public async Task<ProgressReport?> GetByIdAsync(string reportId)
+        public async Task<ProgressReport?> GetByIdAsync(Guid reportId)
         {
             return await _context.ProgressReports.FindAsync(reportId);
         }

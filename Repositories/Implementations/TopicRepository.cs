@@ -1,4 +1,4 @@
-﻿using Graduation_Thesis_Management_System_BE.Data;
+﻿using Graduation_Thesis_Management_System_BE.Data.Entities;
 using Graduation_Thesis_Management_System_BE.Models.Entities;
 using Graduation_Thesis_Management_System_BE.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
@@ -19,7 +19,7 @@ namespace Graduation_Thesis_Management_System_BE.Repositories.Implementations
             return await _context.Topics.ToListAsync();
         }
 
-        public async Task<Topic?> GetByIdAsync(string topicId)
+        public async Task<Topic?> GetByIdAsync(Guid topicId)
         {
             return await _context.Topics
                 .FirstOrDefaultAsync(t => t.TopicId == topicId);

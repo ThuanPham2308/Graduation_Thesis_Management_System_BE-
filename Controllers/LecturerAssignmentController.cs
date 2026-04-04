@@ -16,7 +16,7 @@ namespace Graduation_Thesis_Management_System_BE.Controllers
         }
 
         [HttpGet("topic/{topicId}")]
-        public async Task<IActionResult> GetByTopic(string topicId)
+        public async Task<IActionResult> GetByTopic(Guid topicId)
         {
             return Ok(await _service.GetByTopicAsync(topicId));
         }
@@ -29,7 +29,7 @@ namespace Graduation_Thesis_Management_System_BE.Controllers
         }
 
         [HttpDelete]
-        public async Task<IActionResult> Remove(string topicId, string lecturerId, string role)
+        public async Task<IActionResult> Remove(Guid topicId, Guid lecturerId, string role)
         {
             await _service.RemoveAsync(topicId, lecturerId, role);
             return Ok("Remove lecturer assignment successfully");

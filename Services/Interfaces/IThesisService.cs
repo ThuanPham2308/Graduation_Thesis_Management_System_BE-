@@ -4,9 +4,9 @@ namespace Graduation_Thesis_Management_System_BE.Services.Interfaces
 {
     public interface IThesisService
     {
-        Task<ThesisDto?> GetByTopicAsync(string topicId);
+        Task<ThesisDto?> GetByTopicAsync(Guid topicId);
         Task CreateAsync(CreateThesisDto dto);
-        Task UpdateAsync(string thesisId, UpdateThesisDto dto);
-        Task ApproveAsync(string thesisId, ApproveThesisDto dto);
+        Task UpdateAsync(Guid thesisId, UpdateThesisDto dto);
+        Task ApproveAsync(Guid thesisId, ApproveThesisDto dto);
     }
 }

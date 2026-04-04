@@ -4,8 +4,8 @@ namespace Graduation_Thesis_Management_System_BE.Repositories.Interfaces
 {
     public interface ILecturerAssignmentRepository
     {
-        Task<List<LecturerAssignment>> GetByTopicAsync(string topicId);
+        Task<List<LecturerAssignment>> GetByTopicAsync(Guid topicId);
         Task AddAsync(LecturerAssignment assignment);
-        Task DeleteAsync(string topicId, string lecturerId, string role);
+        Task DeleteAsync(Guid topicId, Guid lecturerId, string role);
     }
 }

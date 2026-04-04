@@ -5,9 +5,9 @@ namespace Graduation_Thesis_Management_System_BE.Models.Entities;
 
 public partial class LecturerAssignment
 {
-    public string TopicId { get; set; } = null!;
+    public Guid TopicId { get; set; } 
 
-    public string LecturerId { get; set; } = null!;
+    public Guid LecturerId { get; set; } 
 
     public string Role { get; set; } = null!;
 

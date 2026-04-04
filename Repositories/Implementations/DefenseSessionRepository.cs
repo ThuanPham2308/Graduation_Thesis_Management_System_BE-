@@ -1,4 +1,4 @@
-﻿using Graduation_Thesis_Management_System_BE.Data;
+﻿using Graduation_Thesis_Management_System_BE.Data.Entities;
 using Graduation_Thesis_Management_System_BE.Models.Entities;
 using Graduation_Thesis_Management_System_BE.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
@@ -17,7 +17,7 @@ namespace Graduation_Thesis_Management_System_BE.Repositories.Implementations
         public async Task<List<DefenseSession>> GetAllAsync()
             => await _context.DefenseSessions.ToListAsync();
 
-        public async Task<DefenseSession?> GetByIdAsync(string sessionId)
+        public async Task<DefenseSession?> GetByIdAsync(Guid sessionId)
             => await _context.DefenseSessions
                 .FirstOrDefaultAsync(x => x.SessionId == sessionId);
 

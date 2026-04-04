@@ -30,7 +30,7 @@ namespace Graduation_Thesis_Management_System_BE.Services.Implementations
             }).ToList();
         }
 
-        public async Task<TopicDto?> GetByIdAsync(string topicId)
+        public async Task<TopicDto?> GetByIdAsync(Guid topicId)
         {
             var topic = await _repo.GetByIdAsync(topicId);
             if (topic == null) return null;
@@ -51,7 +51,7 @@ namespace Graduation_Thesis_Management_System_BE.Services.Implementations
         {
             var topic = new Topic
             {
-                TopicId = Guid.NewGuid().ToString("N").Substring(0, 20),
+                TopicId = Guid.NewGuid(),
                 TopicTitle = dto.TopicTitle,
                 Description = dto.Description,
                 StudentId = dto.StudentId,
@@ -63,7 +63,7 @@ namespace Graduation_Thesis_Management_System_BE.Services.Implementations
             await _repo.AddAsync(topic);
         }
 
-        public async Task UpdateAsync(string topicId, CreateTopicDto dto)
+        public async Task UpdateAsync(Guid topicId, CreateTopicDto dto)
         {
             var topic = await _repo.GetByIdAsync(topicId);
             if (topic == null) throw new Exception("Topic not found");
@@ -75,7 +75,7 @@ namespace Graduation_Thesis_Management_System_BE.Services.Implementations
             await _repo.UpdateAsync(topic);
         }
 
-        public async Task DeleteAsync(string topicId)
+        public async Task DeleteAsync(Guid topicId)
         {
             var topic = await _repo.GetByIdAsync(topicId);
             if (topic == null) throw new Exception("Topic not found");

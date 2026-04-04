@@ -5,9 +5,9 @@ namespace Graduation_Thesis_Management_System_BE.Models.Entities;
 
 public partial class Result
 {
-    public string ResultId { get; set; } = null!;
+    public Guid ResultId { get; set; }
 
-    public string TopicId { get; set; } = null!;
+    public Guid TopicId { get; set; } 
 
     public decimal? ProcessScore { get; set; }
 

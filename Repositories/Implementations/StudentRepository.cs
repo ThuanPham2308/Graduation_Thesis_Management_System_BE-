@@ -1,4 +1,4 @@
-﻿using Graduation_Thesis_Management_System_BE.Data;
+﻿using Graduation_Thesis_Management_System_BE.Data.Entities;
 using Graduation_Thesis_Management_System_BE.Models.Entities;
 using Graduation_Thesis_Management_System_BE.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
@@ -23,7 +23,7 @@ namespace Graduation_Thesis_Management_System_BE.Repositories.Implementations
                 .ToListAsync();
         }
 
-        public async Task<Student?> GetByIdAsync(string studentId)
+        public async Task<Student?> GetByIdAsync(Guid studentId)
         {
             return await _context.Students
                 .Include(s => s.User)

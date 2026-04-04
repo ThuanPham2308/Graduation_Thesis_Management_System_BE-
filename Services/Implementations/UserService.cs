@@ -14,7 +14,6 @@ namespace Graduation_Thesis_Management_System_BE.Services.Implementations
             _repo = repo;
         }
 
-        // XEM DANH SÁCH
         public async Task<List<UserDto>> GetAllAsync()
         {
             var users = await _repo.GetAllAsync();
@@ -29,8 +28,7 @@ namespace Graduation_Thesis_Management_System_BE.Services.Implementations
             }).ToList();
         }
 
-        // XEM CHI TIẾT
-        public async Task<UserDto?> GetByIdAsync(string id)
+        public async Task<UserDto?> GetByIdAsync(Guid id)
         {
             var user = await _repo.GetByIdAsync(id);
             if (user == null) return null;
@@ -45,12 +43,11 @@ namespace Graduation_Thesis_Management_System_BE.Services.Implementations
             };
         }
 
-        // THÊM
         public async Task CreateAsync(CreateUserDto dto)
         {
             var user = new User
             {
-                UserId = Guid.NewGuid().ToString(),
+                UserId = Guid.NewGuid(),
                 FullName = dto.FullName,
                 DateOfBirth = dto.DateOfBirth,
                 Gender = dto.Gender,
@@ -59,15 +56,15 @@ namespace Graduation_Thesis_Management_System_BE.Services.Implementations
                 Email = dto.Email,
                 PhoneNumber = dto.PhoneNumber,
                 UserName = dto.UserName,
-                Password = dto.Password, // (sau này hash)
+                IdentityNumber = dto.IdentityNumber,
+                Password = BCrypt.Net.BCrypt.HashPassword(dto.Password),
                 Role = dto.Role
             };
 
             await _repo.AddAsync(user);
         }
 
-        // SỬA
-        public async Task<bool> UpdateAsync(string id, UpdateUserDto dto)
+        public async Task<bool> UpdateAsync(Guid id, UpdateUserDto dto)
         {
             var user = await _repo.GetByIdAsync(id);
             if (user == null) return false;
@@ -84,14 +81,25 @@ namespace Graduation_Thesis_Management_System_BE.Services.Implementations
             return true;
         }
 
-        // XÓA
-        public async Task<bool> DeleteAsync(string id)
+        public async Task<bool> DeleteAsync(Guid id)
         {
             var user = await _repo.GetByIdAsync(id);
             if (user == null) return false;
 
             await _repo.DeleteAsync(user);
             return true;
+        }
+        public async Task<User?> LoginAsync(string username, string password)
+        {
+            var user = await _repo.GetByUsernameAsync(username);
+
+            if (user == null)
+                return null;
+
+            if (!BCrypt.Net.BCrypt.Verify(password, user.Password))
+                return null;
+
+            return user;
         }
     }
 }
