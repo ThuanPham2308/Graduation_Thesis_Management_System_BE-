@@ -1,0 +1,28 @@
+# Visual Studio
+.vs
+.suo
+.user
+.userosscache
+.sln.docstates
+
+# Build results
+bin
+obj
+
+# ASP.NET
+wwwrootlib
+
+# Logs
+.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Rider  VSCode
+.idea
+.vscode
+
+# Others
+.cache
+.db
