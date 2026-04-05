@@ -26,7 +26,7 @@ namespace Graduation_Thesis_Management_System_BE.Controllers
 
         // GET: api/users/{id}
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetById(string id)
+        public async Task<IActionResult> GetById(Guid id)
         {
             var user = await _service.GetByIdAsync(id);
             if (user == null)
@@ -45,7 +45,7 @@ namespace Graduation_Thesis_Management_System_BE.Controllers
 
         // PUT: api/users/{id}
         [HttpPut("{id}")]
-        public async Task<IActionResult> Update(string id, UpdateUserDto dto)
+        public async Task<IActionResult> Update(Guid id, UpdateUserDto dto)
         {
             var result = await _service.UpdateAsync(id, dto);
             if (!result)
@@ -56,7 +56,7 @@ namespace Graduation_Thesis_Management_System_BE.Controllers
 
         // DELETE: api/users/{id}
         [HttpDelete("{id}")]
-        public async Task<IActionResult> Delete(string id)
+        public async Task<IActionResult> Delete(Guid id)
         {
             var result = await _service.DeleteAsync(id);
             if (!result)

@@ -29,7 +29,7 @@ namespace Graduation_Thesis_Management_System_BE.Services.Implementations
             }).ToList();
         }
 
-        public async Task<StudentDto?> GetByIdAsync(string studentId)
+        public async Task<StudentDto?> GetByIdAsync(Guid studentId)
         {
             var s = await _repository.GetByIdAsync(studentId);
             if (s == null) return null;
@@ -58,7 +58,7 @@ namespace Graduation_Thesis_Management_System_BE.Services.Implementations
             await _repository.AddAsync(student);
         }
 
-        public async Task UpdateAsync(string studentId, CreateStudentDto dto)
+        public async Task UpdateAsync(Guid studentId, CreateStudentDto dto)
         {
             var s = await _repository.GetByIdAsync(studentId);
             if (s == null) throw new Exception("Student not found");
@@ -70,7 +70,7 @@ namespace Graduation_Thesis_Management_System_BE.Services.Implementations
             await _repository.UpdateAsync(s);
         }
 
-        public async Task DeleteAsync(string studentId)
+        public async Task DeleteAsync(Guid studentId)
         {
             var s = await _repository.GetByIdAsync(studentId);
             if (s == null) throw new Exception("Student not found");

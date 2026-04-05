@@ -2,10 +2,10 @@
 {
     public class CreateLecturerDto
     {
-        public string LecturerId { get; set; }
+        public Guid LecturerId { get; set; }
         public string Position { get; set; }
         public string Specialization { get; set; }
         public string AcademicDegree { get; set; }
-        public string UserId { get; set; }
+        public Guid UserId { get; set; }
     }
 }

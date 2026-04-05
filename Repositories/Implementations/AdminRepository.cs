@@ -24,9 +24,12 @@ namespace Graduation_Thesis_Management_System_BE.Repositories.Implementations
 
         public async Task<Admin?> GetByIdAsync(string adminId)
         {
+            if (!Guid.TryParse(adminId, out var guid))
+                return null;
+
             return await _context.Admins
                 .Include(a => a.User)
-                .FirstOrDefaultAsync(a => a.AdminId == adminId);
+                .FirstOrDefaultAsync(a => a.AdminId == guid);
         }
 
         public async Task AddAsync(Admin admin)
